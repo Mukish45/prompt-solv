@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Solve | Solve Your Problems with AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🚀</span>
+                <span class="logo-text">Prompt Solve</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#community" class="nav-link">Community</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>✨ AI-Powered Solutions</span>
+                </div>
+                <h1 class="hero-title">
+                    Solve Your Problems with 
+                    <span class="gradient-text">Smart Prompts</span>
+                </h1>
+                <p class="hero-description">
+                    Turn your challenges into opportunities with our AI-powered prompt engineering platform. 
+                    Get instant solutions, creative ideas, and expert guidance.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('features')">
+                        <span>Get Started</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('how-it-works')">
+                        <i class="fas fa-play"></i>
+                        <span>Watch Demo</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-content">
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Creative Solutions</span>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-content">
+                        <i class="fas fa-rocket"></i>
+                        <span>Fast Results</span>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-content">
+                        <i class="fas fa-brain"></i>
+                        <span>AI-Powered</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-dot"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Prompt Solve?</h2>
+                <p class="section-subtitle">Unlock the power of AI with our cutting-edge features</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3 class="feature-title">Smart Prompt Generation</h3>
+                    <p class="feature-description">AI generates optimized prompts tailored to your specific needs and goals.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">Community Library</h3>
+                    <p class="feature-description">Access thousands of proven prompts shared by our vibrant community.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">Performance Analytics</h3>
+                    <p class="feature-description">Track your prompt effectiveness and optimize for better results.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Enterprise Security</h3>
+                    <p class="feature-description">Bank-level security ensures your data and prompts stay protected.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Mobile Ready</h3>
+                    <p class="feature-description">Solve problems on-the-go with our responsive mobile experience.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3 class="feature-title">Unlimited Possibilities</h3>
+                    <p class="feature-description">From coding to creativity, there's no limit to what you can achieve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Three simple steps to solve any problem</p>
+            </div>
+            <div class="steps-container">
+                <div class="step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Describe Your Problem</h3>
+                        <p class="step-description">Tell us what you're trying to solve or achieve. Be as specific or general as you like.</p>
+                    </div>
+                    <div class="step-visual">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                </div>
+                <div class="step" data-aos="fade-left" data-aos-delay="200">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Get AI-Generated Prompts</h3>
+                        <p class="step-description">Our AI analyzes your needs and generates optimized prompts for maximum effectiveness.</p>
+                    </div>
+                    <div class="step-visual">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                </div>
+                <div class="step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Achieve Your Goals</h3>
+                        <p class="step-description">Use the prompts with any AI model to get exactly what you need, faster than ever.</p>
+                    </div>
+                    <div class="step-visual">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join Our Community</h2>
+                <p class="section-subtitle">Connect with thousands of prompt engineers worldwide</p>
+            </div>
+            <div class="community-stats">
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-number">50K+</div>
+                    <div class="stat-label">Active Users</div>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-number">1M+</div>
+                    <div class="stat-label">Prompts Shared</div>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support</div>
+                </div>
+            </div>
+            <div class="community-cta">
+                <button class="btn btn-primary">
+                    <span>Join Community</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="contact-title">Ready to Get Started?</h2>
+                    <p class="contact-description">
+                        Join thousands of users who are already solving their problems with AI-powered prompts.
+                    </p>
+                    <div class="contact-features">
+                        <div class="contact-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Free to start</span>
+                        </div>
+                        <div class="contact-feature">
+                            <i class="fas fa-check"></i>
+                            <span>No credit card required</span>
+                        </div>
+                        <div class="contact-feature">
+                            <i class="fas fa-check"></i>
+                            <span>Cancel anytime</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form class="form" id="contact-form">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="problem">What problem are you trying to solve?</label>
+                            <textarea id="problem" name="problem" rows="4" placeholder="Describe your challenge..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">
+                            <span>Start Solving</span>
+                            <i class="fas fa-rocket"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🚀</span>
+                        <span class="logo-text">Prompt Solve</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering the next generation with AI-powered problem solving.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#">Features</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">API</a>
+                        <a href="#">Changelog</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Community</h4>
+                        <a href="#">Discord</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Newsletter</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <a href="#">Help Center</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Status</a>
+                        <a href="#">Privacy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Prompt Solve. Made with ❤️ for the next generation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
